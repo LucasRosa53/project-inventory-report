@@ -9,5 +9,5 @@ class Inventory:
     def data(self) -> List[Product]:
         return self._data
     
-    def add_data(self, new_data: List[Product]) -> None:
-        self._data.extend(new_data)
+    def add_data(self, data: List[Product]) -> None:
+        self._data = data
