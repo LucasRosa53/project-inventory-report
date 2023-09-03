@@ -12,7 +12,7 @@ class Importer(ABC):
         pass
 
 
-class JsonImporter:
+class JsonImporter(Importer):
     pass
 
 
